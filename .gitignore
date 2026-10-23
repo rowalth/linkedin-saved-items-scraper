@@ -1,0 +1,54 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.credentials/
+.secrets/
+
+# Personal exports and private working material
+/data/
+/exports/
+/downloads/
+/private/
+/local/
+/artifacts/
+*.log
+
+# Authentication and browser state
+/profiles/
+/browser-profile/
+/browser-profiles/
+/.auth/
+/playwright/.auth/
+cookies*.json
+cookies*.txt
+storage-state*.json
+storageState*.json
+auth-state*.json
+session-state*.json
+
+# Runtime and build output (stack is not selected yet)
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+dist/
+build/
+test-results/
+playwright-report/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
